@@ -46,15 +46,15 @@ describe "Timer" do
   # method, then call that method from inside of time_string.
   #
   # describe 'padded' do
-  #   it 'pads zero' do
-  #     @timer.padded(0).should == '00'
-  #   end
-  #   it 'pads one' do
-  #     @timer.padded(1).should == '01'
-  #   end
-  #   it "doesn't pad a two-digit number" do
-  #     @timer.padded(12).should == '12'
-  #   end
+    # it 'pads zero' do
+      # @timer.padded(0).should == '00'
+    # end
+    # it 'pads one' do
+      # @timer.padded(1).should == '01'
+    # end
+    # it "doesn't pad a two-digit number" do
+      # @timer.padded(12).should == '12'
+    # end
   # end
 
 end
